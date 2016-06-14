@@ -20,16 +20,19 @@ addpath 'path-to-cloned-code/src'
 
 ```matlab
 >> leftpad('Hello!', 10)
-
+```
+```
 ans =
 
     Hello!
-
->> leftpad('Hello!', 10, '~')
-
+```
+```matlab
+>> leftpad('Hello!', 10, '+')
+```
+```
 ans =
 
-~~~~Hello!
+++++Hello!
 ```
 
 ## Run the tests
