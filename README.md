@@ -1,4 +1,4 @@
-# left-pad-toolbox
+# LeftPad Toolbox
 
 String left-padding for MATLAB.
 
