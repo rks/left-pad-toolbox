@@ -13,3 +13,15 @@ function testUsesCustomPaddingCharacter(testCase)
     
     verifyEqual(testCase, padded, '***example');
 end
+
+function testDoesNotAlterInputIfOutputLengthIsEqualToInputLength(testCase)
+    padded = leftpad('example', 7);
+    
+    verifyEqual(testCase, padded, 'example');
+end
+
+function testDoesNotAlterInputIfOutputLengthIsLessThanInputLength(testCase)
+    padded = leftpad('example', 6);
+    
+    verifyEqual(testCase, padded, 'example');
+end
