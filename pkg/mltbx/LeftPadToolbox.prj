@@ -7,7 +7,7 @@
     <param.summary>String left-padding.</param.summary>
     <param.description />
     <param.screenshot>/mathworks/devel/sandbox/rsouza/matlab/left-pad-toolbox/assets/logo-960x720.png</param.screenshot>
-    <param.version>1.0.0</param.version>
+    <param.version>1.1.0</param.version>
     <param.output>${PROJECT_ROOT}/LeftPad Toolbox.mltbx</param.output>
     <param.products.name>
       <item>MATLAB</item>
@@ -20,9 +20,13 @@
     </param.products.version>
     <param.platforms />
     <param.guid>c7437887-8696-4bdb-923d-ed04dcd6e788</param.guid>
-    <param.exclude.filters>.git
+    <param.exclude.filters>._*
+.DS_Store
+.git
 .gitignore
-assets</param.exclude.filters>
+assets
+
+pkg/mltbx/*.mltbx</param.exclude.filters>
     <param.examples />
     <param.demosxml />
     <param.apps />
