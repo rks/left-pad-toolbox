@@ -4,6 +4,12 @@ String left-padding for MATLAB.
 
 ## Install
 
+### Install with MATLAB Add-Ons
+
+[Add to MATLAB](https://local.mathworks.com/button/github/rks/left-pad-toolbox)
+
+### Manual install
+
 Clone the git repository.
 
 ```
