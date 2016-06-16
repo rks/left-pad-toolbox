@@ -6,7 +6,7 @@ String left-padding for MATLAB.
 
 ### Install with MATLAB Add-Ons
 
-[Add to MATLAB](https://local.mathworks.com/button/github/rks/left-pad-toolbox)
+[![Add to MATLAB](https://rks.github.com/left-pad-toolbox-1.0.0.svg)](https://local.mathworks.com/install/github/rks/left-pad-toolbox)
 
 ### Manual install
 
