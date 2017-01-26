@@ -62,13 +62,13 @@ From the project's root:
       <item>MATLAB</item>
     </param.products.name>
     <param.products.id>
-      <item>-1</item>
+      <item>1</item>
     </param.products.id>
     <param.products.version>
-      <item>-1</item>
+      <item>9.1</item>
     </param.products.version>
     <param.platforms />
-    <param.guid>80aacd38-617f-4f09-96d9-8008b911de79</param.guid>
+    <param.guid>d33688be-ff4e-4989-82b9-a07405252389</param.guid>
     <param.exclude.filters />
     <param.examples />
     <param.demosxml />
@@ -103,39 +103,8 @@ From the project's root:
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>/mathworks/devel/jobarchive/BR2017ad/.zfs/snapshot/BR2017ad.520572.pass.ja1/current/build/matlab</root>
-      <toolboxes>
-        <toolbox name="fixedpoint" />
-        <toolbox name="matlabcoder" />
-        <toolbox name="matlabhdlcoder" />
-        <toolbox name="embeddedcoder" />
-        <toolbox name="polyspacebugfinder" />
-      </toolboxes>
-      <toolbox>
-        <fixedpoint>
-          <enabled>true</enabled>
-        </fixedpoint>
-      </toolbox>
-      <toolbox>
-        <matlabcoder>
-          <enabled>true</enabled>
-        </matlabcoder>
-      </toolbox>
-      <toolbox>
-        <matlabhdlcoder>
-          <enabled>true</enabled>
-        </matlabhdlcoder>
-      </toolbox>
-      <toolbox>
-        <embeddedcoder>
-          <enabled>true</enabled>
-        </embeddedcoder>
-      </toolbox>
-      <toolbox>
-        <polyspacebugfinder>
-          <enabled>true</enabled>
-        </polyspacebugfinder>
-      </toolbox>
+      <root>/Applications/MATLAB_R2016b.app</root>
+      <toolboxes />
     </matlab>
     <platform>
       <unix>true</unix>
