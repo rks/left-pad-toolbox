@@ -1,0 +1,156 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration file="/Users/rsouza/projects/left-pad-toolbox/LeftPadToolbox.prj" location="/Users/rsouza/projects/left-pad-toolbox" name="LeftPadToolbox" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>LeftPad Toolbox</param.appname>
+    <param.authnamewatermark>Randy Souza</param.authnamewatermark>
+    <param.email>randy.souza@mathworks.com</param.email>
+    <param.company>MathWorks</param.company>
+    <param.summary>String left-padding for MATLAB</param.summary>
+    <param.description># LeftPad Toolbox
+
+String left-padding for MATLAB.
+
+## Install
+
+### Install with MATLAB Add-Ons
+
+[![Add to MATLAB](https://rks.github.com/left-pad-toolbox-1.0.0.svg)](https://local.mathworks.com/install/github/rks/left-pad-toolbox)
+
+### Manual install
+
+Clone the git repository.
+
+```
+git clone https://github.com/rks/left-pad-toolbox.git
+```
+
+Add the `src` directory to your MATLAB path.
+
+```matlab
+addpath 'path-to-cloned-code/src'
+```
+
+## Use
+
+```matlab
+&gt;&gt; leftpad('Hello!', 10)
+```
+```
+ans =
+
+    Hello!
+```
+```matlab
+&gt;&gt; leftpad('Hello!', 10, '+')
+```
+```
+ans =
+
+++++Hello!
+```
+
+## Run the tests
+
+From the project's root:
+
+```matlab
+&gt;&gt; run 'test/runner'
+```</param.description>
+    <param.screenshot>${PROJECT_ROOT}/assets/logo-960x720.png</param.screenshot>
+    <param.version>1.2.0</param.version>
+    <param.output>${PROJECT_ROOT}/LeftPad Toolbox.mltbx</param.output>
+    <param.products.name>
+      <item>MATLAB</item>
+    </param.products.name>
+    <param.products.id>
+      <item>-1</item>
+    </param.products.id>
+    <param.products.version>
+      <item>-1</item>
+    </param.products.version>
+    <param.platforms />
+    <param.guid>80aacd38-617f-4f09-96d9-8008b911de79</param.guid>
+    <param.exclude.filters />
+    <param.examples />
+    <param.demosxml />
+    <param.apps />
+    <param.docs />
+    <param.matlabpath.excludes>
+      <item>/</item>
+    </param.matlabpath.excludes>
+    <param.javaclasspath.excludes />
+    <unset>
+      <param.output />
+      <param.platforms />
+      <param.exclude.filters />
+      <param.examples />
+      <param.demosxml />
+      <param.apps />
+      <param.docs />
+      <param.javaclasspath.excludes />
+    </unset>
+    <fileset.rootdir>
+      <file>${PROJECT_ROOT}/tbx</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>${PROJECT_ROOT}/tbx/doc</file>
+      <file>${PROJECT_ROOT}/tbx/leftpad</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included />
+    <fileset.depfun.excluded />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/rsouza/projects/left-pad-toolbox" name="LeftPad Toolbox.mltbx" optional="false">/Users/rsouza/projects/left-pad-toolbox/LeftPad Toolbox.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/mathworks/devel/jobarchive/BR2017ad/.zfs/snapshot/BR2017ad.520572.pass.ja1/current/build/matlab</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="polyspacebugfinder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.11.6</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
