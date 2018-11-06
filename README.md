@@ -2,8 +2,6 @@
 
 String left-padding for MATLAB.
 
-[![View as a MATLAB Project](https://img.shields.io/badge/%3C%2F%3E-MATLAB%20Project-blue.svg)](https://ml-project-viewer.herokuapp.com/github/rks/left-pad-toolbox)
-
 ## Install
 
 ### Manual install
