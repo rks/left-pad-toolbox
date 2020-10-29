@@ -2,6 +2,8 @@
 
 String left-padding for MATLAB.
 
+![LeftPad Toolbox logo](assets/logo-160x120.png)
+
 ## Install
 
 ### Manual install
